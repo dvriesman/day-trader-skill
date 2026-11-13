@@ -1,0 +1,21 @@
+{
+  "description": "Order guard: blocks every automatic order and makes the browser read-only on broker pages (see hooks/order_guard.py).",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "mcp__.*|Bash",
+        "hooks": [
+          {"type": "command", "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/order_guard.py\" pre", "timeout": 10}
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "mcp__.*",
+        "hooks": [
+          {"type": "command", "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/order_guard.py\" post", "timeout": 10}
+        ]
+      }
+    ]
+  }
+}

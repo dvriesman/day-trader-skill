@@ -1,20 +1,23 @@
 {
   "name": "day-trader-skill",
-  "description": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
-  "version": "2.0.0",
+  "description": "11 Claude skills for day trading on B3 (Bovespa): scan every Brazilian chart, track CVM filings and breaking news, time every entry and exit, and replay every outcome before you risk a real.",
+  "version": "2.0.0-b3",
   "author": {
-    "name": "Jake Schincariol",
-    "url": "https://opusjake.ai"
+    "name": "dvriesman (B3 adaptation of Jake Schincariol's day-trader-skill)",
+    "url": "https://github.com/dvriesman"
   },
-  "homepage": "https://github.com/Jakeschincariol/day-trader-skill",
-  "repository": "https://github.com/Jakeschincariol/day-trader-skill",
+  "homepage": "https://github.com/dvriesman/day-trader-skill",
+  "repository": "https://github.com/dvriesman/day-trader-skill",
   "license": "MIT",
   "keywords": [
     "claude-code",
     "claude-skills",
     "day-trading",
-    "stock-market",
-    "backtesting",
+    "b3",
+    "bovespa",
+    "ibovespa",
+    "brazil",
+    "cvm",
     "opening-range-breakout",
     "paper-trading"
   ],

@@ -1,9 +1,9 @@
 {
   "rules": [
     {"id": "opening-bell", "type": "opening_bell"},
-    {"id": "tsla-plan-stop", "symbol": "TSLA", "type": "stop", "price": 358.32, "note": "plan stop: opening-range midpoint", "date": "2026-10-19"},
-    {"id": "tsla-plan-target", "symbol": "TSLA", "type": "target", "price": 370.04, "note": "plan target: 1R (one times the risk)", "date": "2026-10-19"},
-    {"id": "tsla-flat-by", "symbol": "TSLA", "type": "time", "at": "15:55", "label": "flat by close", "before_close": true, "date": "2026-10-19"},
-    {"id": "tsla-move-3", "symbol": "TSLA", "type": "pct_move", "pct": 3}
+    {"id": "petr4-plan-stop", "symbol": "PETR4", "type": "stop", "price": 43.66, "note": "plan stop: opening-range midpoint", "date": "2026-11-12"},
+    {"id": "petr4-plan-target", "symbol": "PETR4", "type": "target", "price": 44.54, "note": "plan target: 1R (one times the risk)", "date": "2026-11-12"},
+    {"id": "petr4-flat-by", "symbol": "PETR4", "type": "time", "at": "11:45", "label": "flat by", "before_close": true, "date": "2026-11-12"},
+    {"id": "vale3-move-3", "symbol": "VALE3", "type": "pct_move", "pct": 3}
   ]
 }
